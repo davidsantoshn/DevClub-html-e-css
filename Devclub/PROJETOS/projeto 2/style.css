@@ -1,0 +1,131 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-topo {
+    font-size: 20px;
+    line-height: 29px;
+    color: #17233d;
+    cursor: pointer;
+    padding-right: 35px;
+}
+
+.button-topo {
+    font-size: 25px;
+    line-height: 29px;
+    background: #4cb538;
+    color: white;
+    padding: 6px 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+  }
+
+.img-meio {
+    width: 600px;
+    height: 550px;
+    padding-right: 156px;
+    display: inline-block;
+    margin-left: 50px;
+
+}
+div { 
+    display: inline-block;
+    width: 493px;
+        
+}
+
+h1 {
+    font-weight:800;
+    font-size: 50px;
+    color: #161a49;
+    line-height: 60px;
+}
+
+p { 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #848484;
+    width: 515px;
+    margin-top: 57px;
+    margin-bottom:55px;
+}
+
+.button-baixo {
+    color: #6fbf44;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0,.0,.0,.025));
+    transition: all 0.3s ease;
+    width: 200px;
+    height: 60px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #2980b9; 
+    transform: scale(1.1); 
+  }
+
+  @media screen and (max-width: 450px) { 
+    header {
+        display: none;
+        margin-left: 82px;
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    main {
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 60px;
+    
+  }
+  
+  img {
+    display: block;
+    margin-left: -52px;
+  }
+
+  h1 {
+    margin-left: -34px;
+    font-size: 50px;
+    line-height: 52px;
+    margin: 50px 60px 0 60px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 40px;
+    width: auto;
+    margin: -17px;
+    text-align: center;
+    padding: 31px;
+  }
+
+  button {
+    margin-left: 107px;
+    display: block;
+  }
+}

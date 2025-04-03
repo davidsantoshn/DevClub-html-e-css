@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: lawngreen;
+
+}
+
+.texto {
+   text-align: center;
+    color: white;
+    background: #012340;
+    margin:30px;
+    padding:30px
+
+}
+.paragrafo {
+    box-sizing: border-box;
+    height: 150px;
+    width: 150;
+    font-size: 30px;
+    background-color: aliceblue;
+}
+ 
+.botao {
+    height: 80px;
+    width: 93px;
+    font-size: 30px;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 100px; 
+    margin-left: 250px;   
+}
+
+p::first-line {
+    color: blueviolet;
+}
+p::after {
+    content: "🚀";
+}
+a {
+    background-color: blueviolet;
+    color: black;
+}
+
+a:active {
+    color: aqua;
+}
+
+a:visited {
+    color: white;
+}
